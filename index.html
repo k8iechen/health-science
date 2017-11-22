@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Fun Fact!</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  
+<div class="popup">
+  <h1 id="facts"> </h1>
+    
+<script>
+var facts = ["An adult is made up of around 7,000,000,000,000,000,000,000,000,000 (7 octilion) atoms.", "If there was no empty space between atoms, your body would take up the space of 1/500th of a centimetre on each side.", "If you rub an onion on your feet, you will be able to taste it in 30-60 minutes!","On average, the kidneys process about 50 gallons of blood to filter out about 8 gallons of waste and water.","Your left lung is smaller than your right lung to make space for your heart.","Less than one-third of the human population has 20-20 vision.","Humans shed and grow outer skin cells about every 27 days.","Over 90 percent of diseases are caused or complicated by stress.","The average person has about 5 pounds of bacteria in their digestive system.","You can only taste something if your saliva can dissolve it.","The lining in a person's stomach is replaced every 4 to 5 days to prevent it from digesting itself.","Red Blood cells live for 120 days", "There are over 2.5 trillion red blood cells in your body", "Your body produces 25 million new cells per second", "The average person's heart beats around 30 million times per year", "In one square inch of our hand we have nine feet of blood vessels, 600 pain sensors, 9000 nerve endings, 36 heat sensors and 75 pressure sensors.", "One in every 1000 babies is born with a tooth", "Like fingerprints every person has a unique tongue print", "A fetus in the womb responds to rock music with kicking", "Humans have 46 chromosomes, peas have 14, and crawfish have 200","A condition known as synaesthesia causes and overlap in senses. aka you could hear colour or taste sound","The femur can hold up to 1800 kilos of weight","If someone cracks their femur it can be heard from a football field away", "The adult heart beats about 100 000 times each day.","Your brain can process an image that your eyes have seen for as little as 13 milliseconds — less time than it takes for you to blink","Your brain has a pattern of connectivity as unique as your fingerprints.","The human brain is capable of 1,016 processes per second, which makes it far more powerful than any existing computer.",
+"The latest research shows that the brain’s memory capacity is a quadrillion bytes, about the same amount needed to store the entire internet! ",
+"Your brain generates about 12-25 watts of electricity. This is enough to power a low-wattage LED light.","The brain has no pain receptors and feels no pain, meaning brain surgery can be performed while the patient is awake with no pain. ","There are 2,500,000 gigabytes of storage space in your brain. The top-of-the-line iPhone 7 has 256.","There are about 100 billion neurons in a human brain, which is about the same as the number of stars in the Milky Way galaxy.", "If you laid out all of the blood vessels in your brain end-to-end, they would stretch halfway to the moon (about 120,000 miles).", "The stapes, in the middle ear, is the smallest and lightest bone of the human skeleton.","Bones stop growing in length during puberty. ","The human hand, including the wrist, contains 54 bones.","The largest cell in the human body is an egg (or ovum) and is barely visible to the naked eye.","Every hour, humans shed about 600,000 particles of skin, or about 1.5 pounds every year.","The gluteus maximus is the body’s largest muscle","Messages from the human brain travel along nerves at up to 200 miles an hour (322 km/h)","A human’s little finger contributes over 50% of the hand’s strength","There are more bacteria in a human mouth than there are people in the world.","For an adult human, taking just one step uses up to 200 muscles.","Skin is the largest human organ.","The average adult has around 8 pounds of skin."
+,"The lungs breathe in between 8,000 and 9,000 liters of air each day","The digestive system streches out to be approximately 9 meters long.","The heart is approximately the size of it's owners clenched fist.","A shrimp's heart is located in its head.","A sneeze generates a wind of 166 km/hr (100 mi/hr), and a cough moves out at 100 km/hr (60 mi/hr).","There are more living organisms on the skin of a single human being than there are human beings on the surface of the earth.","We use at least 36 muscles when we smile.", "The average human head weighs about 10 pounds."];
+var fact = Math.floor(Math.random() * 48);
+document.getElementById("facts").innerHTML = facts[fact];
+</script>
+  <span class="close">
+    <i class="fa fa-close"></i>
+  </span>
+</div>
+
+<button class="btn">
+    click me!
+</button>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
